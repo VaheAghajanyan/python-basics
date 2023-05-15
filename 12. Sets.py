@@ -1,5 +1,6 @@
 my_set = {1, 2, 3, 4, 5}
 my_set.add(6)
+print(my_set.__contains__(2))
 my_set.remove(3)
 
 if 4 in my_set:
